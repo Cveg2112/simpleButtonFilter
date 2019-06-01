@@ -1,0 +1,31 @@
+.cp-filter {
+  text-align: center;
+
+  > .in {
+    background-color: #dfdfdf;
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+
+  h1 {
+    margin: 1.5em 0;
+  }
+
+  &__item {
+    border: 0px;
+    border-radius: 0;
+    background-color: #fff;
+    font-family: $monserrat;
+    letter-spacing: 1px;
+    padding: 20px 30px;
+    border: 1px solid rgba(#090909, .2);
+    margin: 0 2px;
+    min-width: 240px;
+    transition: all .25s linear;
+    cursor: pointer;
+    &:hover, &.is-active {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}

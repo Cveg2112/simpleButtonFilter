@@ -1,0 +1,20 @@
+//defaults
+
+body, body * { box-sizing: border-box; }
+
+.container { width: 100%; max-width: 1680px; margin: 0 auto; }
+
+
+$monserrat: 'Montserrat', 'sans-serif';
+
+h1, h2, h3, h4, h5, p, a, ul, ol, li, table, button { font-family: $monserrat; }
+
+h1 { font-size: 38px; letter-spacing: 1px; }
+h2 { font-size: 26px; font-weight: 600; letter-spacing: 1px; }
+h3 { font-size: 20px; font-weight: 600; letter-spacing: 1px; }
+
+p {
+  font-weight: 300;
+  line-height: 1.5em;
+  font-size: 18px;
+}
